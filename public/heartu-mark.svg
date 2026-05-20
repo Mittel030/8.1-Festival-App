@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Heart U Festival App Icon</title>
+  <desc id="desc">Heart and letter U icon for the festival app</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <path d="M256 365c-11-10-23-20-35-30-63-54-104-90-104-144 0-43 33-76 76-76 26 0 50 12 63 31 13-19 37-31 63-31 43 0 76 33 76 76 0 54-41 90-104 144-12 10-24 20-35 30z" fill="#fff" opacity="0.3"/>
+  <path d="M184 221c0-30 20-52 48-52 27 0 47 22 47 52v71c0 31-20 52-47 52-28 0-48-21-48-52v-71zm31 71c0 12 7 21 17 21 9 0 16-9 16-21v-71c0-12-7-21-16-21-10 0-17 9-17 21v71z" fill="#fff"/>
+  <rect x="294" y="169" width="31" height="123" rx="14" fill="#fff"/>
+</svg>
