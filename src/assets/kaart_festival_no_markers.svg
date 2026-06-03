@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- This is a placeholder SVG. Replace with your actual festival map SVG -->
+  <rect width="800" height="600" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="400" y="300" text-anchor="middle" font-size="20" fill="#333">
+    Festival Map Overlay - Replace with actual SVG
+  </text>
+</svg>

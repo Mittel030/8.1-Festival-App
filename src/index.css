@@ -1,17 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansation:wght@300;400;700&display=swap');
 @import 'tailwindcss';
 
 :root {
-  font-family: 'Sora', 'Trebuchet MS', 'Verdana', sans-serif;
+  font-family: 'Sansation', 'Trebuchet MS', 'Verdana', sans-serif;
+  color-scheme: light;
+  --bg: #fff7ed;
+  --surface: #ffffff;
+  --text: #000000;
+  --muted: #334155;
+  --border: #e2e8f0;
+}
+
+.dark {
+  color-scheme: dark;
+  --bg: #020617;
+  --surface: #0b1120;
+  --text: #f8fafc;
+  --muted: #94a3b8;
+  --border: #334155;
 }
 
 body {
   margin: 0;
   min-height: 100svh;
-  background:
-    radial-gradient(circle at 15% 5%, rgba(249, 115, 22, 0.25), transparent 35%),
-    radial-gradient(circle at 95% 20%, rgba(244, 63, 94, 0.18), transparent 40%),
-    #fff7ed;
+  background: var(--bg);
+  color: var(--text);
 }
 
 #root {
